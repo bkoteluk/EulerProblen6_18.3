@@ -1,13 +1,10 @@
-package pl.bkoteluk.service;
+package pl.bkoteluk.sumsquaredifference.service;
 
-public class Euler {
+public class SumSquareDifferenceService {
 
     private int maxNumber;
 
-    public Euler() {
-    }
-
-    public Euler(int maxNumber) {
+    public SumSquareDifferenceService(int maxNumber) {
         this.maxNumber = maxNumber;
     }
 
